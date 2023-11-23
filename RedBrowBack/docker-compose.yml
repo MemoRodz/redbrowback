@@ -1,0 +1,20 @@
+version: '2.23.0'
+
+services:
+  database:
+    image: mariadb:latest
+    restart: always
+    container_name: redbrow
+    ports:
+      - '3307:3306'
+    environment:
+      MYSQL_ROOT_PASSWORD: 'Basura01'
+      MYSQL_DATABASE: 'redbrowuser'
+      MYSQL_USER: 'proyecto'
+      MYSQL_PASSWORD: 'AbcD-1234'
+    volumes:
+      - dbdata:/var/lib/mysql
+      - ./DBFiles/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  dbdata:
