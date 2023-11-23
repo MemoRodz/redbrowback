@@ -7,14 +7,20 @@
 
 📌 1. Se crea base de datos en MariaDB.
 
-📌 2. Se crean las tablas .
+📌 2. Se crean las tablas Rol y Usuario.
 
-📌 3. Ordenar las palabras de una frase.
+📌 3. Se crea proyecto WebAPI con .Net, C# y EntityFramework.
 
-📌 4. Obtener los números primos en un rango dado.
+📌 4. Se crean métodos de peticiones Web GET para listar y listar por ID de usuario.
 
-📌 5. Implementación de Clase Persona y Herencia de otras: Estudiante y Profesor.
+📌 5. Se crean métodos de peticiones Web PUT para actualizar por ID de usuario.
 
-📌 6. Implementación de Clase Abstracta Animal y sobre escritura de métodos.
+📌 6. Se crean métodos de peticiones Web POST para crear usuario.
 
-🚀 Creo que iré actualizando con los que se vayan presentando.
+📌 7. Se crean métodos de peticiones Web DELETE para eliminar por ID de usuario.
+
+<hr />
+
+🚀 Se crean archivos para contenedor Docker para la base de datos y la WebAPI.
+
+🚀 En la carpeta DBFiles se encuentra el Script para creación de objetos de la base de datos.
